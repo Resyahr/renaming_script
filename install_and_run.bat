@@ -1,0 +1,6 @@
+@echo off
+echo Checking and installing necessary dependencies...
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+echo Running the renaming script...
+pause
